@@ -789,6 +789,10 @@ a {
 
 /* ===== МОБІЛЬНЕ МЕНЮ ===== */
 @media (max-width: 900px) {
+  .section {
+    padding: 45px 0;
+  }
+
   .nav {
     position: absolute;
     top: 70px;
