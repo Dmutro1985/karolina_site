@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Услуги и цены — Каролина</title>
+  <link rel="icon" type="image/png" href="images/favicon/favicon.png">
+  <link rel="stylesheet" href="css/style.css?v=3">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Great+Vibes&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- ===================== ШАПКА ===================== -->
+  <header class="header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">
+        <img src="images/logo/logo-monogram.png" alt="Karolina Kisman" class="logo-img">
+      </a>
+
+      <nav class="nav">
+        <a href="index.html">Главная</a>
+        <a href="prices.html" class="active">Услуги и цены</a>
+        <a href="process.html">Как проходит терапия</a>
+        <a href="contact.html">Контакты</a>
+      </nav>
+
+      <div class="header-right">
+        <span class="city">г. Киев</span>
+        <div class="socials">
+          <a href="#" title="Facebook">f</a>
+          <a href="#" title="Telegram">✈</a>
+          <a href="#" title="Instagram">◎</a>
+        </div>
+        <button class="theme-btn" id="theme-toggle" aria-label="Сменить тему">🌙</button>
+      </div>
+
+      <button class="menu-btn" aria-label="Меню">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ===================== БАННЕР СТРАНИЦЫ ===================== -->
+  <section class="page-hero">
+    <div class="container">
+      <h1>Услуги и цены</h1>
+      <p>Онлайн-консультации в удобном для вас формате</p>
+    </div>
+  </section>
+
+  <!-- ===================== УСЛУГИ ===================== -->
+  <section class="section" id="prices">
+    <div class="container">
+      <div class="cards-grid">
+        <div class="card">
+          <h4>Долгосрочная психотерапия</h4>
+          <p>Регулярная терапевтическая работа с глубокими и длительными запросами.</p>
+          <p class="card-meta">Продолжительность сессии: 50 минут</p>
+          <div class="price">1 800 грн</div>
+        </div>
+        <div class="card">
+          <h4>Психологическое консультирование - 10 сессий</h4>
+          <p>Краткосрочная структурированная работа с конкретным запросом, рассчитанная на 10 встреч.</p>
+          <p class="card-meta">Продолжительность одной сессии: 50 минут</p>
+          <div class="price">2 000 грн <span>/ сессия</span></div>
+        </div>
+        <div class="card">
+          <h4>Разовая консультация</h4>
+          <p>Разбор конкретной ситуации или вопроса. Опираюсь не только на профессиональные знания, но и на профессиональный и жизненный опыт, при необходимости даю конкретные рекомендации.</p>
+          <p class="card-meta">Продолжительность: 60 минут</p>
+          <div class="price">2 500 грн</div>
+        </div>
+      </div>
+
+      <p class="center-note">Формат: онлайн.</p>
+
+      <div style="text-align:center; margin-top: 30px;">
+        <a href="contact.html" class="btn">Записаться на консультацию</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== С КАКИМИ ЗАПРОСАМИ Я РАБОТАЮ ===================== -->
+  <section class="section section-alt" id="issues">
+    <div class="container">
+      <h2 class="section-title">С какими запросами я работаю</h2>
+
+      <div class="accordion">
+        <details class="accordion-item">
+          <summary>Эмоциональное состояние</summary>
+          <p>Тревога, постоянное внутреннее напряжение, страхи и фобии, панические состояния, подавленность, депрессивные состояния, эмоциональная нестабильность, апатия, ощущение пустоты, потеря интереса к жизни, раздражительность, агрессия, чувство вины, стыд, ощущение, что «я больше ничего не чувствую».</p>
+        </details>
+
+        <details class="accordion-item">
+          <summary>Горе, утрата и кризисные ситуации</summary>
+          <p>Смерть близкого человека, переживание утраты, чувство вины после утраты, невозможность отпустить прошлое, расставание и завершение значимых отношений, развод, потеря работы, финансовый кризис, переезд, иммиграция, сложности адаптации в новом окружении.</p>
+        </details>
+
+        <details class="accordion-item">
+          <summary>Травма и последствия травматического опыта</summary>
+          <p>Психологическая травма, травматический опыт в детстве, опыт насилия, эмоциональное насилие, физическое насилие, сексуальное насилие, последствия сексуального опыта, токсичные отношения, нарушение личных границ.</p>
+        </details>
+
+        <details class="accordion-item">
+          <summary>Зависимость и созависимость</summary>
+          <p>Зависимости, созависимость.</p>
+        </details>
+
+        <details class="accordion-item">
+          <summary>Самооценка и отношение к себе</summary>
+          <p>Низкая самооценка, неуверенность в себе, ненависть к себе, постоянная самокритика, чувство собственной недостаточности, синдром самозванца.</p>
+        </details>
+
+        <details class="accordion-item">
+          <summary>Поиск себя и самореализация</summary>
+          <p>Поиск себя, самореализация, потеря смысла жизни, поиск смысла жизни, экзистенциальный кризис, ощущение бессмысленности, страх прожить жизнь не так.</p>
+        </details>
+
+        <details class="accordion-item">
+          <summary>Выгорание и потеря ресурса</summary>
+          <p>Эмоциональное выгорание, хроническая усталость, потеря мотивации, постоянное напряжение, перфекционизм.</p>
+        </details>
+
+        <details class="accordion-item">
+          <summary>Личные границы и отношения с собой</summary>
+          <p>Невозможность сказать «нет», страх отказа, страх конфликта, чувство вины за свои желания, трудности просить о помощи, страх остаться одной.</p>
+        </details>
+
+        <details class="accordion-item">
+          <summary>Пищевое поведение и отношение к телу</summary>
+          <p>Эмоциональное переедание, расстройства пищевого поведения, стыд за тело, недовольство внешностью.</p>
+        </details>
+
+        <details class="accordion-item">
+          <summary>Отношения с людьми</summary>
+          <p>Отношения с родителями, отношения с детьми, отношения с друзьями, отношения с коллегами, одиночество.</p>
+        </details>
+
+        <details class="accordion-item">
+          <summary>Сексуальность</summary>
+          <p>Сексуальная самооценка, принятие собственной сексуальности, стыд, связанный с сексуальностью, сексуальные границы, вопросы сексуальной идентичности, последствия сексуального опыта.</p>
+        </details>
+
+        <details class="accordion-item">
+          <summary>Экзистенциальные вопросы</summary>
+          <p>Страх смерти, вопросы смысла жизни, ощущение бессмысленности, страх прожить жизнь не так.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== ПОДВАЛ ===================== -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <img src="images/logo/logo-full.png" alt="Karolina Kisman" class="footer-logo">
+      <p>© 2026 Каролина. Психолог</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
